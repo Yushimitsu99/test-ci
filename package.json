@@ -6,10 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "test": "echo \"Pas de tests définis encore\" && exit 0",
-    "preview": "vite preview"
+    "serve": "node server.js"
   },
   "dependencies": {
+    "express": "^5.1.0",
     "vue": "^3.5.17"
   },
   "devDependencies": {
